@@ -28,7 +28,3 @@ app.get('/news', async (req, res) => {
         res.status(500).send('Erro ao buscar notícias');
     }
 });
-
-app.listen(PORT, () => {
-    console.log(`Servidor rodando na porta ${PORT}`);
-});
